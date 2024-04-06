@@ -1,5 +1,6 @@
 const { exec } = require('child_process');
 
+console.log ('Installing dependencies...');
 // Define the dependencies you want to install
 const dependencies = [
     'express',
